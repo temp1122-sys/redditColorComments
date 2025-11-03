@@ -1,0 +1,9 @@
+Package: com.jailedutils.redditcolorcomments
+Name: redditColorComments
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Reddit color comments for >2025.11.
+Maintainer: Sam Hyde
+Author: Sam Hyde
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
