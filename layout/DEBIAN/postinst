@@ -1,0 +1,4 @@
+#!/bin/sh
+
+killall -HUP RedditApp || true
+exit 0

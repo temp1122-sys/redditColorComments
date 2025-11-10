@@ -49,10 +49,10 @@ void logAndSetBackgroundColorByDepth(UIView *verticalDivider, NSInteger depth) {
 %ctor {
     verticalDividerClass = objc_getClass("PDP_CommentSheet_Impl.VerticalDivider");
     
-    colorPalette[0] = [UIColor redColor];
-    colorPalette[1] = [UIColor colorWithHue:0.0916666667 saturation:1.0 brightness:1.0 alpha:1.0];
-    colorPalette[2] = [UIColor colorWithHue:0.130555556 saturation:1.0 brightness:1.0 alpha:1.0];
-    colorPalette[3] = [UIColor colorWithHue:0.333333333 saturation:1.0 brightness:1.0 alpha:1.0];
-    colorPalette[4] = [UIColor blueColor];
-    colorPalette[5] = [UIColor colorWithHue:0.861111111 saturation:1.0 brightness:1.0 alpha:1.0];
+    colorPalette[0] = [UIColor colorWithRed:1 green:0 blue:0 alpha:0.3];
+    colorPalette[1] = [UIColor colorWithHue:0.0916666667 saturation:1.0 brightness:1.0 alpha:0.3];
+    colorPalette[2] = [UIColor colorWithHue:0.130555556 saturation:1.0 brightness:1.0 alpha:0.3];
+    colorPalette[3] = [UIColor colorWithHue:0.333333333 saturation:1.0 brightness:1.0 alpha:0.3];
+    colorPalette[4] = [UIColor colorWithRed:0 green:0 blue:1 alpha:0.3];
+    colorPalette[5] = [UIColor colorWithHue:0.861111111 saturation:1.0 brightness:1.0 alpha:0.3];
 }
